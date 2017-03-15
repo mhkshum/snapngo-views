@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D82EABC1E78EAA6000527F2 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82EABB1E78EAA6000527F2 /* RegistrationViewController.swift */; };
 		0DC19AE21E7859FB002EEFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC19AE11E7859FB002EEFE9 /* AppDelegate.swift */; };
 		0DC19AE41E7859FB002EEFE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC19AE31E7859FB002EEFE9 /* ViewController.swift */; };
 		0DC19AE71E7859FB002EEFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC19AE51E7859FB002EEFE9 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D82EABB1E78EAA6000527F2 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		0DC19ADE1E7859FB002EEFE9 /* SnapnGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapnGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC19AE11E7859FB002EEFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DC19AE31E7859FB002EEFE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				0DC19AE11E7859FB002EEFE9 /* AppDelegate.swift */,
 				0DC19AE31E7859FB002EEFE9 /* ViewController.swift */,
 				0DC19AE51E7859FB002EEFE9 /* Main.storyboard */,
+				0D82EABB1E78EAA6000527F2 /* RegistrationViewController.swift */,
 				0DC19AE81E7859FB002EEFE9 /* Assets.xcassets */,
 				0DC19AEA1E7859FB002EEFE9 /* LaunchScreen.storyboard */,
 				0DC19AED1E7859FB002EEFE9 /* Info.plist */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D82EABC1E78EAA6000527F2 /* RegistrationViewController.swift in Sources */,
 				0DC19AE41E7859FB002EEFE9 /* ViewController.swift in Sources */,
 				0DC19AE21E7859FB002EEFE9 /* AppDelegate.swift in Sources */,
 			);
@@ -406,6 +410,7 @@
 				0DC19AFD1E7859FB002EEFE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DC19AFE1E7859FB002EEFE9 /* Build configuration list for PBXNativeTarget "SnapnGoTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +419,7 @@
 				0DC19B001E7859FB002EEFE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
