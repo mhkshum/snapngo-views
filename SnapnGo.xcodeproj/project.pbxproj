@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D256BCA1E81EC81009E60A4 /* JourneyAdderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D256BC91E81EC81009E60A4 /* JourneyAdderViewController.swift */; };
+		0D256BCC1E81F7D3009E60A4 /* JourneyLocationAdderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D256BCB1E81F7D3009E60A4 /* JourneyLocationAdderViewController.swift */; };
+		0D256BCE1E81FF01009E60A4 /* JourneysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D256BCD1E81FF01009E60A4 /* JourneysViewController.swift */; };
 		0D82EABC1E78EAA6000527F2 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82EABB1E78EAA6000527F2 /* RegistrationViewController.swift */; };
 		0DC19AE21E7859FB002EEFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC19AE11E7859FB002EEFE9 /* AppDelegate.swift */; };
 		0DC19AE41E7859FB002EEFE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC19AE31E7859FB002EEFE9 /* ViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D256BC91E81EC81009E60A4 /* JourneyAdderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyAdderViewController.swift; sourceTree = "<group>"; };
+		0D256BCB1E81F7D3009E60A4 /* JourneyLocationAdderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyLocationAdderViewController.swift; sourceTree = "<group>"; };
+		0D256BCD1E81FF01009E60A4 /* JourneysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneysViewController.swift; sourceTree = "<group>"; };
 		0D82EABB1E78EAA6000527F2 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		0DC19ADE1E7859FB002EEFE9 /* SnapnGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapnGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC19AE11E7859FB002EEFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,8 +87,11 @@
 			children = (
 				0DC19AE11E7859FB002EEFE9 /* AppDelegate.swift */,
 				0DC19AE31E7859FB002EEFE9 /* ViewController.swift */,
-				0DC19AE51E7859FB002EEFE9 /* Main.storyboard */,
+				0D256BC91E81EC81009E60A4 /* JourneyAdderViewController.swift */,
 				0D82EABB1E78EAA6000527F2 /* RegistrationViewController.swift */,
+				0D256BCB1E81F7D3009E60A4 /* JourneyLocationAdderViewController.swift */,
+				0D256BCD1E81FF01009E60A4 /* JourneysViewController.swift */,
+				0DC19AE51E7859FB002EEFE9 /* Main.storyboard */,
 				0DC19AE81E7859FB002EEFE9 /* Assets.xcassets */,
 				0DC19AEA1E7859FB002EEFE9 /* LaunchScreen.storyboard */,
 				0DC19AED1E7859FB002EEFE9 /* Info.plist */,
@@ -202,8 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D256BCA1E81EC81009E60A4 /* JourneyAdderViewController.swift in Sources */,
 				0D82EABC1E78EAA6000527F2 /* RegistrationViewController.swift in Sources */,
 				0DC19AE41E7859FB002EEFE9 /* ViewController.swift in Sources */,
+				0D256BCE1E81FF01009E60A4 /* JourneysViewController.swift in Sources */,
+				0D256BCC1E81F7D3009E60A4 /* JourneyLocationAdderViewController.swift in Sources */,
 				0DC19AE21E7859FB002EEFE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
