@@ -17,6 +17,8 @@
 		0DC19AE91E7859FB002EEFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC19AE81E7859FB002EEFE9 /* Assets.xcassets */; };
 		0DC19AEC1E7859FB002EEFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC19AEA1E7859FB002EEFE9 /* LaunchScreen.storyboard */; };
 		0DC19AF71E7859FB002EEFE9 /* SnapnGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC19AF61E7859FB002EEFE9 /* SnapnGoTests.swift */; };
+		0DF20A5A1E94662F001D9F2F /* RequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF20A591E94662F001D9F2F /* RequestsTableViewCell.swift */; };
+		0DF20A5C1E946C3B001D9F2F /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF20A5B1E946C3B001D9F2F /* RequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0DC19AF21E7859FB002EEFE9 /* SnapnGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapnGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC19AF61E7859FB002EEFE9 /* SnapnGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapnGoTests.swift; sourceTree = "<group>"; };
 		0DC19AF81E7859FB002EEFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF20A591E94662F001D9F2F /* RequestsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsTableViewCell.swift; sourceTree = "<group>"; };
+		0DF20A5B1E946C3B001D9F2F /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				0D256BCB1E81F7D3009E60A4 /* JourneyLocationAdderViewController.swift */,
 				0D256BCD1E81FF01009E60A4 /* JourneysViewController.swift */,
 				0DC19AE51E7859FB002EEFE9 /* Main.storyboard */,
+				0DF20A5B1E946C3B001D9F2F /* RequestViewController.swift */,
+				0DF20A591E94662F001D9F2F /* RequestsTableViewCell.swift */,
 				0DC19AE81E7859FB002EEFE9 /* Assets.xcassets */,
 				0DC19AEA1E7859FB002EEFE9 /* LaunchScreen.storyboard */,
 				0DC19AED1E7859FB002EEFE9 /* Info.plist */,
@@ -217,6 +223,8 @@
 				0D256BCE1E81FF01009E60A4 /* JourneysViewController.swift in Sources */,
 				0D256BCC1E81F7D3009E60A4 /* JourneyLocationAdderViewController.swift in Sources */,
 				0DC19AE21E7859FB002EEFE9 /* AppDelegate.swift in Sources */,
+				0DF20A5C1E946C3B001D9F2F /* RequestViewController.swift in Sources */,
+				0DF20A5A1E94662F001D9F2F /* RequestsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
